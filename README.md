@@ -6,7 +6,7 @@ Another collection of snippets for Sublime-Text 2.
 Installation
 ============
 
-Clone this repo to your Sublime Text config folder.
+Clone this repo into your Sublime Text config folder.
 
 On Ubuntu...
 
