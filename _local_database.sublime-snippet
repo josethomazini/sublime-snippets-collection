@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.${1:postgresql_psycopg2}',  # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
+        'NAME': '${2:postgres}',                                  # Or path to database file if using sqlite3.
+        'USER': '${3:postgres}',                                  # Not used with sqlite3.
+        'PASSWORD': '${4:postgres}',                              # Not used with sqlite3.
+        'HOST': '${5:localhost}',                                 # Set to empty string for localhost. Not used with sqlite3.
+        'PORT': '${6:5432}',                                      # Set to empty string for default. Not used with sqlite3.
+    }
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>_local_database</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

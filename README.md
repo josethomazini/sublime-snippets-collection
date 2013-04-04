@@ -11,6 +11,7 @@ Clone this repo to your Sublime Text config folder.
 On Ubuntu...
 
 cd $HOME/.config/sublime-text-2/Packages/User/
+
 git clone git@github.com:JoseThomazini/sublime-snippets-collection.git
 
 Done!

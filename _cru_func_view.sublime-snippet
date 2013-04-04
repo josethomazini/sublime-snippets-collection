@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+    def ${1:VIEW_NAME}(request):
+        if request.method == 'POST':
+            form = ${2:FORM_NAME}(request.POST)
+            if form.is_valid():
+                form.save()
+                return HttpResponseRedirect(${3:URI_NAME})
+        else:
+            form = ${2:FORM_NAME}()
+
+        return direct_to_template(request, ${4:TEMPLATE_NAME}, {'form':form})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>_cru_func_view</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
