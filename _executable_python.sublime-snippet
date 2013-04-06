@@ -1,10 +1,11 @@
 <snippet>
     <content><![CDATA[
-def __unicode__(self):
-    return self.${1:FIELD}
+#! /usr/bin/env python
+
+
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>_unicode</tabTrigger>
+    <tabTrigger>_executable_python</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.python</scope>
 </snippet>

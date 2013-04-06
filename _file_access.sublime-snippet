@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+f = open('FILENAME', '${1:r}')
+${2:# 'r' read-only (default)
+# 'w' writing (an existing file with the same name will be erased)
+# 'a' appending
+# 'r+' read/write}
+for line in f:
+    # f.write("string")
+    # f.readline()
+    pass
+
+f.closed
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>_file_access</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
