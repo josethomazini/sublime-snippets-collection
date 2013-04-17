@@ -19,7 +19,7 @@ Done!
 Just type the underscore symbol directly on your document, and a list of
 available snippets for your current syntax will be displayed for choosing.
 
-Optionaly, you may include to your Sublime User Settings a trigger to the
+Optionally, you may include into your Sublime User Settings a trigger for the 
 underscore symbol to show the list of available snippets for text.html syntax:
 
 "auto_complete_triggers": [ {"selector": "text.html", "characters": "<_"}]
