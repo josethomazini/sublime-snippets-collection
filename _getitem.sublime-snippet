@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+def __getitem__(self, pos):
+    return self.${1:MY_LIST}[pos]
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>_getitem</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
