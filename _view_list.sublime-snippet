@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+def ${1:model}_list(request):
+    object_list = ${2:Model}.objects.all()
+
+    return render(
+        request,
+        '${3: template}_list.html',
+        {
+        'object_list': object_list,
+        },
+    )
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>_view_list</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
