@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+${1:from django.db.models import Q}
+def get_queryset(self):
+    q = Q()
+    if self.is_valid():
+        if self.cleaned_data['${2:ATTRIBUTE}']:
+            q = q & Q(${3:APP_LOWERCASE}__${4:MODEL_LOWERCASE}__${5:ATTRIBUTE_LOWERCASE}__icontains=self.cleaned_data['${2:ATTRIBUTE}'])
+    return ${6:MODEL}.objects.filter(q)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>_q</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

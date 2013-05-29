@@ -1,10 +1,9 @@
 <snippet>
     <content><![CDATA[
-# coding: utf-8
-
+messages.error(request, '${1:MESSAGE}')
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>_utf8</tabTrigger>
+    <tabTrigger>_messages_error</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.python</scope>
 </snippet>
