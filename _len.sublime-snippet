@@ -2,7 +2,6 @@
     <content><![CDATA[
 def __len__(self):
     return len(self.${1:MY_LIST})
-
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>_len</tabTrigger>

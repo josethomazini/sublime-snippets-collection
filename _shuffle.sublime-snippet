@@ -2,7 +2,6 @@
     <content><![CDATA[
 ${2:from random import shuffle}
 shuffle(${1:MY_LIST})
-
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>_shuffle</tabTrigger>

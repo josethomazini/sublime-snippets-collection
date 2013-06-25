@@ -1,7 +1,6 @@
 <snippet>
     <content><![CDATA[
 print '_' * 20; print '${1:OBJECT_NAME}:'; print '' * 30; print ${1:OBJECT_NAME}; print '_' * 50
-
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>_print_object</tabTrigger>

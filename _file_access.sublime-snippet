@@ -11,7 +11,6 @@ for line in f:
     pass
 
 f.close()
-
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>_file_access</tabTrigger>

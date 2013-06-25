@@ -2,7 +2,6 @@
     <content><![CDATA[
 def save(self, *args, **kwargs):
     instance = super(${1:FORM}, self).save(commit=${2:False})
-
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>_save_extension</tabTrigger>

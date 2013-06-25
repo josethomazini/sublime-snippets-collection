@@ -5,14 +5,10 @@
     <thead>
         <tr>
             <th>xxx HEADER xxxx</th>
-            <th>xxx HEADER xxxx</th>
-            <th>xxx HEADER xxxx</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>xxx CONTENT xxx</td>
-            <td>xxx CONTENT xxx</td>
             <td>xxx CONTENT xxx</td>
         </tr>
     </tbody>

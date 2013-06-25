@@ -1,9 +1,6 @@
 <snippet>
     <content><![CDATA[
-from django.contrib import admin
-from ${1:PACKAGE}.models import ${2:MODEL}
-
-admin.site.register(${2:MODEL})
+admin.site.register(${1:MODEL})
 
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

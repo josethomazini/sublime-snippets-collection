@@ -6,7 +6,6 @@
         ${4:alert(data);}
     });
 </script>
-
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>_json_callback</tabTrigger>

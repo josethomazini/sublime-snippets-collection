@@ -3,7 +3,6 @@
 def __init__(self, *args, **kwargs):
     self.${1:ATTRIBUTE} = kwargs.pop('${1:ATTRIBUTE}', None)
     super(${2:FORM}, self).__init__(*args, **kwargs)
-
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>_init_extension</tabTrigger>
