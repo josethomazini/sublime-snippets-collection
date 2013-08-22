@@ -1,7 +1,7 @@
 sublime-snippets-collection
 ===========================
 
-Another collection of snippets for Sublime-Text 2.
+Another collection of snippets for Sublime-Text 2 or Sublime-Text 3.
 
 Installation
 ============
