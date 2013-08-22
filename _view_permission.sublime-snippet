@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+if request.user.has_perm('${1:PERMISSAO}'):
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>_view_permission</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
