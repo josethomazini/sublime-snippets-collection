@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+# from django.contrib import admin
+
+class ${1:MODEL}Admin(admin.ModelAdmin):
+    pass
+
+admin.site.register(${1:MODEL}Admin)
+
+]]></content>
+    <tabTrigger>çç_django_admin_register</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
