@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+
+# ALERT: Makefiles are TAB-indented. Space-indent will crash it.
+
+CFLAGS=-Wall -g
+
+run:
+	./${1:COMPILED_FILE_NAME}
+
+clean:
+	rm -f ${1:COMPILED_FILE_NAME}
+
+valgrind:
+	valgrind --track-origins=yes -v ./${1:COMPILED_FILE_NAME}
+
+
+]]></content>
+    <tabTrigger>çç_makefile_template</tabTrigger>
+    <scope>source.makefile</scope>
+</snippet>
