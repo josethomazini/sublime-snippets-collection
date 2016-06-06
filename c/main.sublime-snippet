@@ -8,6 +8,6 @@ int main(int argc, char *argv[]){
 }
 
 ]]></content>
-    <tabTrigger>çç_c_main</tabTrigger>
+    <tabTrigger>ssc_c_main</tabTrigger>
     <scope>source.c, source.c++</scope>
 </snippet>

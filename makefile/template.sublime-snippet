@@ -16,6 +16,6 @@ valgrind:
 
 
 ]]></content>
-    <tabTrigger>çç_makefile_template</tabTrigger>
+    <tabTrigger>ssc_makefile_template</tabTrigger>
     <scope>source.makefile</scope>
 </snippet>
