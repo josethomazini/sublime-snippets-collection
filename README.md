@@ -23,12 +23,12 @@ Done!
 Just type the **scp_** symbol directly on your document, and a list of
 available snippets for your current syntax will be displayed for choosing.
 
-No more copy and paste!! 
-No more copy and paste!! 
-No more copy and paste!! 
-No more copy and paste!! 
-No more copy and paste!! 
-No more copy and paste!! 
+No more copy and paste!!  
+No more copy and paste!!  
+No more copy and paste!!  
+No more copy and paste!!  
+No more copy and paste!!  
+No more copy and paste!!  
 
 **scopes**
 
