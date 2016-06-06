@@ -21,7 +21,7 @@ Add this config in your Settings User json file:
 Usage
 =====
 
-Just type the **scp_** symbol directly on your document, and a list of
+Just type the **ssc_** symbol directly on your document, and a list of
 available snippets for your current syntax will be displayed for choosing.
 
 Scopes
