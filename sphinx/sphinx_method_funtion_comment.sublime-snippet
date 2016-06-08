@@ -6,8 +6,8 @@ Longer method/function information...
 Longer method/function information...
 
 Parameters:
-    self (${1: CLASS_NAME}): Instance of {1: CLASS_NAME}
-    cls (${1: CLASS_NAME}): Reference of {1: CLASS_NAME}
+    self (${1: CLASS_NAME}): Instance of ${1: CLASS_NAME}
+    cls (${1: CLASS_NAME}): Reference of ${1: CLASS_NAME}
     param_n (type): Description of the param_n.
 
 Arguments:
