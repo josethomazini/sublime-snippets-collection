@@ -1,7 +1,6 @@
 <snippet>
     <content><![CDATA[
 # -*- coding: utf-8 -*-
-
 ]]></content>
     <tabTrigger>ssc_python_utf8</tabTrigger>
     <scope>source.python</scope>

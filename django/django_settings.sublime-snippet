@@ -3,7 +3,6 @@
 # from django.conf import settings
 
 ${1:MODEL} = getattr(settings, '${1:MODEL}', None)
-
 ]]></content>
     <tabTrigger>ssc_django_settings</tabTrigger>
     <scope>source.python</scope>

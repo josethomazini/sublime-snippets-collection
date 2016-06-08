@@ -6,7 +6,6 @@ class ${1:MODEL}Admin(admin.ModelAdmin):
     pass
 
 admin.site.register(${1:MODEL}Admin)
-
 ]]></content>
     <tabTrigger>ssc_django_admin_register</tabTrigger>
     <scope>source.python</scope>

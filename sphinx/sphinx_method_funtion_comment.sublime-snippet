@@ -1,0 +1,34 @@
+<snippet>
+    <content><![CDATA[
+"""Summary of method/function here.
+
+Longer method/function information...
+Longer method/function information...
+
+Parameters:
+    self (${1: CLASS_NAME}): Instance of {1: CLASS_NAME}
+    cls (${1: CLASS_NAME}): Reference of {1: CLASS_NAME}
+    param_n (type): Description of the param_n.
+
+Arguments:
+    arg_n (type): Description of the arg_n.
+
+Keyword Arguments:
+    kwarg_n (type): Description of the kwarg_n.
+
+Returns:
+    type: Description of return type
+
+Raises:
+    type: Description of exception_n
+
+See Also:
+    url
+
+Examples:
+    a code example
+"""
+]]></content>
+    <tabTrigger>ssc_sphinx_method_function_comment</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

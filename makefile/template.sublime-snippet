@@ -13,8 +13,6 @@ clean:
 
 valgrind:
 	valgrind --track-origins=yes -v ./${1:COMPILED_FILE_NAME}
-
-
 ]]></content>
     <tabTrigger>ssc_makefile_template</tabTrigger>
     <scope>source.makefile</scope>

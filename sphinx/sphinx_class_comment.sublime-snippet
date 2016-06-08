@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+"""Summary of class here.
+
+Longer class information...
+Longer class information...
+
+Attributes:
+    attr1 (type): Description of the attr1.
+"""
+]]></content>
+    <tabTrigger>ssc_sphinx_class_comment</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

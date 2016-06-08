@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+"""Inits ${1: CLASS_NAME} with blah
+"""
+]]></content>
+    <tabTrigger>ssc_sphinx_init_comment</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
