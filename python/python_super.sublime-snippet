@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-super(${1:CLASS_NAME}, self).__${2:METHOD_NAME}__(*args, **kwargs)
+super(${1:CLASS_NAME}, self).${2:METHOD_NAME}(*args, **kwargs)
 ]]></content>
     <tabTrigger>ssc_python_super</tabTrigger>
     <scope>source.python</scope>
