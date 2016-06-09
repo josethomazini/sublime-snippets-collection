@@ -2,6 +2,6 @@
     <content><![CDATA[
 import gc; print(gc.collect() 'itens deletados')
 ]]></content>
-    <tabTrigger>ssc_garbage_collection</tabTrigger>
+    <tabTrigger>ssc_python_garbage_collection</tabTrigger>
     <scope>source.python</scope>
 </snippet>

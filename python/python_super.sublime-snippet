@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+super(${1:CLASS_NAME}, self).__${2:METHOD_NAME}__(*args, **kwargs)
+]]></content>
+    <tabTrigger>ssc_python_super</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
