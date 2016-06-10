@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+ #!/usr/bin/python
+ ]]></content>
+    <tabTrigger>ssc_python_header_script</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
