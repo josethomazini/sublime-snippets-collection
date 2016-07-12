@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$("#${1:ELEMENT_ID}").css({"${2:ATTRIBUTE}": "${3:VALUE}"});
+]]></content>
+    <tabTrigger>ssc_jquery_style</tabTrigger>
+    <scope>text.html</scope>
+</snippet>
