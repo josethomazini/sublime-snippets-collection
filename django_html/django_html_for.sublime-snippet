@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+{% for object in object_list %}
+    ${1:YOUR_CODE_HERE}
+{% empty %}
+    ${2:YOUR_OTHER_CODE_HERE}
+{% endfor %}
+]]></content>
+    <tabTrigger>ssc_django_html_for</tabTrigger>
+    <scope>text.html</scope>
+</snippet>

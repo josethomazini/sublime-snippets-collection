@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+{% url '${1:URL_NAME}' ${2:PARAMS} %}
+]]></content>
+    <tabTrigger>ssc_django_html_url</tabTrigger>
+    <scope>text.html</scope>
+</snippet>
