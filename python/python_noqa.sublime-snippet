@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+# noqa
+]]></content>
+    <tabTrigger>ssc_python_noqa</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

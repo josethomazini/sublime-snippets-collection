@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+{% trans "${1:YOUR_TEXT_HERE}" %}
+]]></content>
+    <tabTrigger>ssc_django_html_trans</tabTrigger>
+    <scope>text.html</scope>
+</snippet>

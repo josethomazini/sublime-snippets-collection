@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+${1:FIELD_NAME} = models.ManyToManyField(${2:M2M_MODEL}, through=${3:THROUGH_MODEL}, related_name='${4:related_name}', null=False, blank=False)
+]]></content>
+    <tabTrigger>ssc_django_field_m2m</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

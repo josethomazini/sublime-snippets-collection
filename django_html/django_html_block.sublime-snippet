@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+{% block ${1:BLOCKNAME} %}
+    ${2:YOUR_CODE_HERE}
+{% endblock ${1:BLOCKNAME} %}
+]]></content>
+    <tabTrigger>ssc_django_html_block</tabTrigger>
+    <scope>text.html</scope>
+</snippet>

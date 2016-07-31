@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+class OPTION(object):
+    YES = 1
+    NO = 2
+
+    CHOICES = (
+        (YES, u'Yes'),
+        (NO, u'No'),
+    )
+]]></content>
+    <tabTrigger>ssc_python_model_choices</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

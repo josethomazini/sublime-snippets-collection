@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+{% if %}
+    ${1:YOUR_CODE_HERE}
+{% else %}
+    ${2:YOUR_CODE_HERE}
+{% endif %}
+]]></content>
+    <tabTrigger>ssc_django_html_if</tabTrigger>
+    <scope>text.html</scope>
+</snippet>

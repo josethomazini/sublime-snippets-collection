@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+${1:FIELD_NAME} = models.SmallIntegerField(u'${2:FIELD_LABEL}', ${3:choices=()}, default=${3:0}, null=False, blank=False)
+]]></content>
+    <tabTrigger>ssc_django_field_smallinteger</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

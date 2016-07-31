@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+\$(document).ready(function() {
+    ${1:YOUR_CODE_HERE}
+});
+]]></content>
+    <tabTrigger>ssc_jquery_document_ready</tabTrigger>
+    <scope>text.html</scope>
+</snippet>

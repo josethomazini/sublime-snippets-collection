@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+{% block extra_css %}
+    <style type="text/css">
+        ${1:YOUR_CODE_HERE}
+    </style>
+{% endblock extra_css %}
+]]></content>
+    <tabTrigger>ssc_django_html_extra_css</tabTrigger>
+    <scope>text.html</scope>
+</snippet>
