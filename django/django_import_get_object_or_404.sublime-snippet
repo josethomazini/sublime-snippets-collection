@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+from django.shortcuts import get_object_or_404
+]]></content>
+    <tabTrigger>ssc_django_import_get_object_or_404</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

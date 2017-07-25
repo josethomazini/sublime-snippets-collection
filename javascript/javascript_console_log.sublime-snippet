@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+console.log(${1:YOUR_CODE_HERE});
+]]></content>
+    <tabTrigger>ssc_javascript_console_log</tabTrigger>
+    <scope>text.html</scope>
+</snippet>

@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-#!/usr/bin/python
+print(${1:YOUR_TEXT_HERE})
 ]]></content>
-    <tabTrigger>ssc_python_header_script</tabTrigger>
+    <tabTrigger>ssc_python_print</tabTrigger>
     <scope>source.python</scope>
 </snippet>

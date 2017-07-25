@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+class Singleton(object):
+    def __new__(cls, *args, **kwargs):
+        if not hasattr(cls, '_instance'):
+            cls._instance = super(Singleton, cls).__new__(cls, *args, **kwargs)
+        return cls._instance
+]]></content>
+    <tabTrigger>ssc_python_singleton</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

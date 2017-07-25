@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+u'{param_1} {param_2}'.format(param_1=u'str_1', param_2=u'str_2')
+]]></content>
+    <tabTrigger>ssc_python_string_format</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

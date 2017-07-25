@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-#!/usr/bin/python
+from django.http import Http404
 ]]></content>
-    <tabTrigger>ssc_python_header_script</tabTrigger>
+    <tabTrigger>ssc_django_import_http_404</tabTrigger>
     <scope>source.python</scope>
 </snippet>

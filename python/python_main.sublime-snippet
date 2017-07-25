@@ -1,7 +1,8 @@
 <snippet>
     <content><![CDATA[
-#!/usr/bin/python
+if __name__ == '__main__':
+    main()
 ]]></content>
-    <tabTrigger>ssc_python_header_script</tabTrigger>
+    <tabTrigger>ssc_python_main</tabTrigger>
     <scope>source.python</scope>
 </snippet>

@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+from django.views.generic import (
+    CreateView,
+    UpdateView,
+    DetailView,
+    ListView,
+    TemplateView,
+    RedirectView,
+)
+]]></content>
+    <tabTrigger>ssc_django_import_generic_views</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

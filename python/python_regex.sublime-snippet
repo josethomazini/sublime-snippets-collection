@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+import re
+pattern = re.compile(r'^${1:REGEX}\$')
+pattern.search('${2:TARGET_STR}')
+]]></content>
+    <tabTrigger>ssc_python_regex</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

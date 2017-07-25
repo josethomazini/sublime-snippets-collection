@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+def clean_${1:FIELD_NAME}(self):
+    ${1:FIELD_NAME} = self.cleaned_data.get('${1:FIELD_NAME}', None)
+    if ${2:False}:
+        raise forms.ValidationError(u'${3:ERROR_MESSAGE}')
+    return ${1:FIELD_NAME}
+]]></content>
+    <tabTrigger>ssc_django_form_clean_field</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

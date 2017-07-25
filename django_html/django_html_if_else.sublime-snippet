@@ -2,8 +2,10 @@
     <content><![CDATA[
 {% if ${1:TEST} %}
 
+{% else %}
+
 {% endif %}
 ]]></content>
-    <tabTrigger>ssc_django_html_if</tabTrigger>
+    <tabTrigger>ssc_django_html_if_else</tabTrigger>
     <scope>text.html</scope>
 </snippet>

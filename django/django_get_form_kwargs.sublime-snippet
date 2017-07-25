@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+def get_form_kwargs(self):
+    kwargs = super(${1:CLASS_NAME}, self).get_form_kwargs()
+    return kwargs
+]]></content>
+    <tabTrigger>ssc_django_get_form_kwargs</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
