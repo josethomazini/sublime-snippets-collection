@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 def data_migration(apps, schema_editor):
-    pass
+    MODEL = apps.get_model('APP', 'MODEL')
 
     operations = [
         migrations.RunPython(
