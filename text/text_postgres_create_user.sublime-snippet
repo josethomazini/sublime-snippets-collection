@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-create user;
-]]></content>
-    <tabTrigger>ssc_text_postgres_create_user</tabTrigger>
-    <scope>text.plain</scope>
-</snippet>
