@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+${1:FIELD_NAME} = models.IntegerField(u'${2:FIELD_LABEL}', default=${3:0}, null=${4:False}, blank=${5:False})
+]]></content>
+    <tabTrigger>ssc_django_field_integer</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

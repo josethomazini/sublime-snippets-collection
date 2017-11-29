@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+{{ block.super }}
+]]></content>
+    <tabTrigger>ssc_django_tag_super</tabTrigger>
+    <scope>text.html</scope>
+</snippet>

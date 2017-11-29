@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+${1:FIELD_NAME} = models.BooleanField(u'${2:FIELD_LABEL}', default=${3:False}, null=${4:False}, blank=${5:False})
+]]></content>
+    <tabTrigger>ssc_django_field_boolean</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

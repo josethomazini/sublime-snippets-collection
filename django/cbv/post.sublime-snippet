@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+def post(self, request, *args, **kwargs):
+    return super(${1:CLASS_NAME, self).post(request, *args, **kwargs)
+]]></content>
+    <tabTrigger>ssc_django_cbv_post</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

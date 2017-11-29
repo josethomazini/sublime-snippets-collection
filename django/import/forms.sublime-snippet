@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+from django import forms
+]]></content>
+    <tabTrigger>ssc_django_import_forms</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

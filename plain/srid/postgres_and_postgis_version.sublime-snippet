@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+${1:SELECT current_setting('server_version') as POSTGRES, PostGIS_lib_version() as POSTGIS;}
+]]></content>
+    <tabTrigger>ssc_srid_postgres_and_postgis_version</tabTrigger>
+    <scope>text.plain</scope>
+</snippet>

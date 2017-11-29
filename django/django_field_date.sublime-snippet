@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:FIELD_NAME} = models.DateField(u'${2:FIELD_LABEL}', null=False, blank=False)
-]]></content>
-    <tabTrigger>ssc_django_field_date</tabTrigger>
-    <scope>source.python</scope>
-</snippet>

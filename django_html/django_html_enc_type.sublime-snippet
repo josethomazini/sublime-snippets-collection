@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-enctype="multipart/form-data"
-]]></content>
-    <tabTrigger>ssc_django_html_enc_type</tabTrigger>
-    <scope>text.html</scope>
-</snippet>

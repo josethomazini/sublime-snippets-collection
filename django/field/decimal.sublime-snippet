@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+${1:FIELD_NAME} = models.DecimalField(u'${2:FIELD_LABEL}', default=${3:0}, max_digits=${4:10}, decimal_places=${5:2}, null=${6:False}, blank=${7:False})
+]]></content>
+    <tabTrigger>ssc_django_field_decimal</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

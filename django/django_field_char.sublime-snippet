@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:FIELD_NAME} = models.CharField(u'${2:FIELD_LABEL}', default=${3:''}, max_length=${4:255}, null=False, blank=False)
-]]></content>
-    <tabTrigger>ssc_django_field_char</tabTrigger>
-    <scope>source.python</scope>
-</snippet>

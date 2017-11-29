@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+kwargs = {}
+reverse_lazy('${1:CLASS_NAME}', kwargs=kwargs)
+]]></content>
+    <tabTrigger>ssc_django_reverse_lazy</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

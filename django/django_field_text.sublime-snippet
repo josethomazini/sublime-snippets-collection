@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:FIELD_NAME} = models.TextField(u'${2:FIELD_LABEL}', default=${3:''}, null=False, blank=False)
-]]></content>
-    <tabTrigger>ssc_django_field_text</tabTrigger>
-    <scope>source.python</scope>
-</snippet>

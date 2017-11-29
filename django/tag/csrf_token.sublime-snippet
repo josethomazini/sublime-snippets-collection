@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+{% csrf_token %}
+]]></content>
+    <tabTrigger>ssc_django_tag_csrf_token</tabTrigger>
+    <scope>text.html</scope>
+</snippet>

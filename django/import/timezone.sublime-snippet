@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+from django.utils import timezone
+]]></content>
+    <tabTrigger>ssc_django_import_timezone</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

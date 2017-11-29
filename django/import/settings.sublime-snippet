@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+from django.conf import settings
+]]></content>
+    <tabTrigger>ssc_django_import_settings</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

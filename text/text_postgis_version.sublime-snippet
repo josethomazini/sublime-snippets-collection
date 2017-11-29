@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:select PostGIS_full_version();}
-]]></content>
-    <tabTrigger>ssc_text_postgis_version</tabTrigger>
-    <scope>text.plain</scope>
-</snippet>

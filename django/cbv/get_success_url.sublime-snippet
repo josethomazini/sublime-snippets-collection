@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+def get_success_url(self):
+    return reverse_lazy(
+        '${1:URL_NAME}',
+        kwargs={}
+    )
+]]></content>
+    <tabTrigger>ssc_django_cbv_get_success_url</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

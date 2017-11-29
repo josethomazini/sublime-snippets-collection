@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+from django.http import HttpResponse
+]]></content>
+    <tabTrigger>ssc_django_import_http_response</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

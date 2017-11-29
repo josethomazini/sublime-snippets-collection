@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+{% include "$1{YOUR_PAGE_HERE}" %}
+]]></content>
+    <tabTrigger>ssc_django_tag_include</tabTrigger>
+    <scope>text.html</scope>
+</snippet>

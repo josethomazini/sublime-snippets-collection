@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-{{ block.super }}
-]]></content>
-    <tabTrigger>ssc_django_html_super</tabTrigger>
-    <scope>text.html</scope>
-</snippet>
