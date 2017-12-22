@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-unset DJANGO_SETTINGS_MODULE
-]]></content>
-    <tabTrigger>ssc_bash_virtualenv_django_postdeactivate</tabTrigger>
-    <scope>source.shell</scope>
-</snippet>

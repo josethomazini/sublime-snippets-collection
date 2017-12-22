@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-#!/bin/bash
-]]></content>
-    <tabTrigger>ssc_bash_header_script</tabTrigger>
-    <scope>source.shell</scope>
-</snippet>
