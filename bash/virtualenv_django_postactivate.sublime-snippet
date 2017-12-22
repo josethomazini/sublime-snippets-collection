@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+cd ~/Documents/workspace/${1:PROJECT_ROOT}/${2:DJANGO_ROOT}
+export DJANGO_SETTINGS_MODULE=${3:PROJECT_NAME}.settings.${4:MY_LOCAL_SETTINGS}
+]]></content>
+    <tabTrigger>ssc_bash_virtualenv_django_postactivate</tabTrigger>
+    <scope>source.shell</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+${1:git reset HEAD~}
+]]></content>
+    <tabTrigger>ssc_srid_git_undo_commit</tabTrigger>
+    <scope>text.plain</scope>
+</snippet>

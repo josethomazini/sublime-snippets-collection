@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+def get_queryset(self):
+    return ${1:CLASS_NAME.objects.all()
+]]></content>
+    <tabTrigger>ssc_django_cbv_get_queryset</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

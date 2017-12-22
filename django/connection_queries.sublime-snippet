@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+from django.db import connection
+print connection.queries
+print {{ MODEL }}.objects.all().query
+]]></content>
+    <tabTrigger>ssc_django_connection_queries</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+'''
+                  | r   r+   w   w+   a   a+
+------------------|--------------------------
+read              | +   +        +        +
+write             |     +    +   +    +   +
+create            |          +   +    +   +
+truncate          |          +   +
+position at start | +   +    +   +
+position at end   |                   +   +
+'''
+]]></content>
+    <tabTrigger>ssc_python_openfile_options</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+def get_object(self):
+    return get_object_or_404(${1:MODEL_NAME}, pk=${2:OBJECT_PK})
+]]></content>
+    <tabTrigger>ssc_django_cbv_get_object</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
