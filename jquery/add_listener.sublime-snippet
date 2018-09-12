@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:TARGET}.addEventListener('${1:ACTION}', function(e) {
+    ${1:REACTION}
+});
+]]></content>
+    <tabTrigger>ssc_jquery_add_listener</tabTrigger>
+    <scope>text.html</scope>
+</snippet>
